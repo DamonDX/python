@@ -1,6 +1,5 @@
 pagamento = float(input('Digite o valor do seu pagamento em R$:'))
 
-aumento = (pagamento*15)/100
-pagamento = pagamento + aumento
+pagamento = pagamento + (pagamento*15)/100
 
-print('Voce teve um aumento e seu salário é de {}'.format(pagamento))
+print('Voce teve um aumento e seu salário se tornou  R${:.2f}'.format(pagamento))
