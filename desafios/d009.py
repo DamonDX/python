@@ -13,6 +13,6 @@ print('{} x {:2} = {}'.format(valor, 9, valor*9))
 print('-'*12)
 
 for contador in range(1, 11):
-    print('{} x {:2} = {}'.format(valor, contador, valor*contador))
+    print('\033[;34m{} x {:2}\033[m = \033[;32m{}\033[m'.format(valor, contador, valor*contador))
 
 print('-'*12)

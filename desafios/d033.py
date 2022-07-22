@@ -17,5 +17,5 @@ if numero_1 > numero_3 and numero_1 > numero_2:
     maior = numero_1
 
 # Print do número maior e menor.
-print('O maior número é o {}'.format(maior))
-print('O menor número é o {}'.format(menor))
+print('O maior número é o {}{}{}'.format('\033[;31m', maior, '\033[m'))
+print('O menor número é o {}{}{}'.format('\033[;34m', menor, '\033[m'))

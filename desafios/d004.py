@@ -1,35 +1,34 @@
-n = input("digite algumas coisa:")
-
+n = input("digite algumas coisa: ")
 print(type(n))
 print('print isalnum')
-print(n.isalnum())
+print('\033[;30;41m'+str(n.isalnum())+'\033[m')
 
 print('print isalpha')
-print(n.isalpha())
+print('\033[;30;41m'+str(n.isalpha())+'\033[m')
 
 print('print isascii')
-print(n.isascii())
+print('\033[;30;41m'+str(n.isascii())+'\033[m')
 
 print('print isdecimal')
-print(n.isdecimal())
+print('\033[;30;41m'+str(n.isdecimal())+'\033[m')
 
 print('print isdigit')
-print(n.isdigit())
+print('\033[;30;41m'+str(n.isdigit())+'\033[m')
 
 print('print isidentifier')
-print(n.isidentifier())
+print('\033[;30;41m'+str(n.isidentifier())+'\033[m')
 
 print('print isnumeric')
-print(n.isnumeric())
+print('\033[;30;41m'+str(n.isnumeric())+'\033[m')
 
 print('print islower')
-print(n.islower())
+print('\033[;30;41m'+str(n.islower())+'\033[m')
 
 print('print isprintable')
-print(n.isprintable())
+print('\033[;30;41m'+str(n.isprintable())+'\033[m')
 
 print('print isspace')
-print(n.isspace())
+print('\033[;30;41m'+str(n.isspace())+'\033[m')
 
 print('print istitle')
-print(n.istitle())
+print('\033[;30;41m'+str(n.istitle())+'\033[m')
