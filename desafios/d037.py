@@ -1,4 +1,4 @@
-numero = int(input('Digite um número: '))
+numero = int(input('Digite um número inteiro: '))
 
 print('Escolha qual conversão você deseja fazer.')
 print('1 - Binario')
