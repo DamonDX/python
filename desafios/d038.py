@@ -2,8 +2,8 @@ numero = float(input('Digite um número: '))
 numero2 = float(input('Digite um número: '))
 
 if numero2 > numero:
-    print('O número {} é maior que o numero {}'.format(numero2, numero))
+    print('O segundo número é maior.')
 elif numero > numero2:
-    print('número {} é maior que o número {}'.format(numero, numero2))
+    print('O primeiro número é maior.')
 else:
     print('Os números são IGUAIS!')
